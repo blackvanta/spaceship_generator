@@ -1,0 +1,42 @@
+* {
+  font-family: 'Nova Mono', monospace;
+  user-select: none;
+}
+body {
+  background-color: #2E2633;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ship {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ship .row {
+  display: flex;
+  flex-direction: row;
+}
+.ship .row .part.c1 {
+  color: #2E2633;
+}
+.ship .row .part.c2 {
+  color: #555152;
+}
+.ship .row .part.c3 {
+  color: #DCE9BE;
+}
+.ship .row .part.c4 {
+  color: #EFFFCD;
+}
+.ship .row .part.c5 {
+  color: #99173C;
+}
+.ship .row .part.c6 {
+  color: #CCC043;
+}

@@ -1,0 +1,60 @@
+@c1: #2E2633;
+@c2: #555152;
+@c3: #DCE9BE;
+@c4: #EFFFCD;
+@c5: #99173C;
+@c6: #CCC043;
+
+* {
+	font-family: 'Nova Mono', monospace;
+	user-select: none;
+}
+
+body {
+	background-color: @c1;
+	padding: 0px;
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ship {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.row {
+		display: flex;
+		flex-direction: row;
+
+		.part {
+			&.c1 {
+				color: @c1;
+			}
+
+			&.c2 {
+				color: @c2;
+			}
+
+			&.c3 {
+				color: @c3;
+			}
+
+			&.c4 {
+				color: @c4;
+			}
+
+			&.c5 {
+				color: @c5;
+			}
+
+			&.c6 {
+				color: @c6;
+			}
+		}
+	}	
+}
